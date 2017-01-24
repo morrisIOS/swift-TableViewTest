@@ -30,6 +30,8 @@ class SecondViewController: LZJViewController,UITableViewDataSource,UITableViewD
         super.viewDidLoad()
         
         self.initTBView()
+        
+        
 
         
         LZJNetWork.sharedInstance.getRequest(
